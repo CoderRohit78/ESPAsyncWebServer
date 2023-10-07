@@ -17,8 +17,8 @@
 
 AsyncWebServer server(80);
 
-const char* ssid = "YOUR_SSID";
-const char* password = "YOUR_PASSWORD";
+const char* ssid = "realme c25y";
+const char* password = "rohit ku";
 
 const char* PARAM_MESSAGE = "message";
 
