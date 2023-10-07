@@ -17,8 +17,8 @@
 
 AsyncWebServer server(80);
 
-const char* ssid = "YOUR_SSID";
-const char* password = "YOUR_PASSWORD";
+const char* ssid = "realme c25y";
+const char* password = "rohit ku";
 
 const char* PARAM_MESSAGE = "message";
 
@@ -37,7 +37,7 @@ void setup() {
     }
 
     Serial.print("IP Address: ");
-    Serial.println(WiFi.localIP());
+    Serial.println(WiFi.localIP()); hai 
 
     server.on("/", HTTP_GET, [](AsyncWebServerRequest *request){
         request->send(200, "text/plain", "Hello, world");
